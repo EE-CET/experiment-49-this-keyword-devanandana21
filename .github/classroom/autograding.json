@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Output",
+      "setup": "javac src/ThisKeywordDemo.java",
+      "run": "java -cp src ThisKeywordDemo",
+      "input": "50",
+      "output": "Value: 50",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
